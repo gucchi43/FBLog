@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDA5A3291DCB587700F8C971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5A3281DCB587700F8C971 /* AppDelegate.swift */; };
+		EDA5A32B1DCB587700F8C971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5A32A1DCB587700F8C971 /* ViewController.swift */; };
+		EDA5A32E1DCB587700F8C971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA5A32C1DCB587700F8C971 /* Main.storyboard */; };
+		EDA5A3301DCB587700F8C971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA5A32F1DCB587700F8C971 /* Assets.xcassets */; };
+		EDA5A3331DCB587700F8C971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA5A3311DCB587700F8C971 /* LaunchScreen.storyboard */; };
+		EDA5A33E1DCB587700F8C971 /* FBLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5A33D1DCB587700F8C971 /* FBLogTests.swift */; };
+		EDA5A3491DCB587700F8C971 /* FBLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5A3481DCB587700F8C971 /* FBLogUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDA5A33A1DCB587700F8C971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA5A31D1DCB587700F8C971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA5A3241DCB587700F8C971;
+			remoteInfo = FBLog;
+		};
+		EDA5A3451DCB587700F8C971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA5A31D1DCB587700F8C971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA5A3241DCB587700F8C971;
+			remoteInfo = FBLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDA5A3251DCB587700F8C971 /* FBLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA5A3281DCB587700F8C971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDA5A32A1DCB587700F8C971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDA5A32D1DCB587700F8C971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA5A32F1DCB587700F8C971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA5A3321DCB587700F8C971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA5A3341DCB587700F8C971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA5A3391DCB587700F8C971 /* FBLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA5A33D1DCB587700F8C971 /* FBLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLogTests.swift; sourceTree = "<group>"; };
+		EDA5A33F1DCB587700F8C971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA5A3441DCB587700F8C971 /* FBLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA5A3481DCB587700F8C971 /* FBLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLogUITests.swift; sourceTree = "<group>"; };
+		EDA5A34A1DCB587700F8C971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA5A3221DCB587700F8C971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA5A3361DCB587700F8C971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA5A3411DCB587700F8C971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA5A31C1DCB587700F8C971 = {
+			isa = PBXGroup;
+			children = (
+				EDA5A3271DCB587700F8C971 /* FBLog */,
+				EDA5A33C1DCB587700F8C971 /* FBLogTests */,
+				EDA5A3471DCB587700F8C971 /* FBLogUITests */,
+				EDA5A3261DCB587700F8C971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA5A3261DCB587700F8C971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA5A3251DCB587700F8C971 /* FBLog.app */,
+				EDA5A3391DCB587700F8C971 /* FBLogTests.xctest */,
+				EDA5A3441DCB587700F8C971 /* FBLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA5A3271DCB587700F8C971 /* FBLog */ = {
+			isa = PBXGroup;
+			children = (
+				EDA5A3281DCB587700F8C971 /* AppDelegate.swift */,
+				EDA5A32A1DCB587700F8C971 /* ViewController.swift */,
+				EDA5A32C1DCB587700F8C971 /* Main.storyboard */,
+				EDA5A32F1DCB587700F8C971 /* Assets.xcassets */,
+				EDA5A3311DCB587700F8C971 /* LaunchScreen.storyboard */,
+				EDA5A3341DCB587700F8C971 /* Info.plist */,
+			);
+			path = FBLog;
+			sourceTree = "<group>";
+		};
+		EDA5A33C1DCB587700F8C971 /* FBLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA5A33D1DCB587700F8C971 /* FBLogTests.swift */,
+				EDA5A33F1DCB587700F8C971 /* Info.plist */,
+			);
+			path = FBLogTests;
+			sourceTree = "<group>";
+		};
+		EDA5A3471DCB587700F8C971 /* FBLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA5A3481DCB587700F8C971 /* FBLogUITests.swift */,
+				EDA5A34A1DCB587700F8C971 /* Info.plist */,
+			);
+			path = FBLogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA5A3241DCB587700F8C971 /* FBLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA5A34D1DCB587700F8C971 /* Build configuration list for PBXNativeTarget "FBLog" */;
+			buildPhases = (
+				EDA5A3211DCB587700F8C971 /* Sources */,
+				EDA5A3221DCB587700F8C971 /* Frameworks */,
+				EDA5A3231DCB587700F8C971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBLog;
+			productName = FBLog;
+			productReference = EDA5A3251DCB587700F8C971 /* FBLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDA5A3381DCB587700F8C971 /* FBLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA5A3501DCB587700F8C971 /* Build configuration list for PBXNativeTarget "FBLogTests" */;
+			buildPhases = (
+				EDA5A3351DCB587700F8C971 /* Sources */,
+				EDA5A3361DCB587700F8C971 /* Frameworks */,
+				EDA5A3371DCB587700F8C971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA5A33B1DCB587700F8C971 /* PBXTargetDependency */,
+			);
+			name = FBLogTests;
+			productName = FBLogTests;
+			productReference = EDA5A3391DCB587700F8C971 /* FBLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDA5A3431DCB587700F8C971 /* FBLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA5A3531DCB587700F8C971 /* Build configuration list for PBXNativeTarget "FBLogUITests" */;
+			buildPhases = (
+				EDA5A3401DCB587700F8C971 /* Sources */,
+				EDA5A3411DCB587700F8C971 /* Frameworks */,
+				EDA5A3421DCB587700F8C971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA5A3461DCB587700F8C971 /* PBXTargetDependency */,
+			);
+			name = FBLogUITests;
+			productName = FBLogUITests;
+			productReference = EDA5A3441DCB587700F8C971 /* FBLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA5A31D1DCB587700F8C971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "HIroki Taniguti";
+				TargetAttributes = {
+					EDA5A3241DCB587700F8C971 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EDA5A3381DCB587700F8C971 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EDA5A3241DCB587700F8C971;
+					};
+					EDA5A3431DCB587700F8C971 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EDA5A3241DCB587700F8C971;
+					};
+				};
+			};
+			buildConfigurationList = EDA5A3201DCB587700F8C971 /* Build configuration list for PBXProject "FBLog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA5A31C1DCB587700F8C971;
+			productRefGroup = EDA5A3261DCB587700F8C971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA5A3241DCB587700F8C971 /* FBLog */,
+				EDA5A3381DCB587700F8C971 /* FBLogTests */,
+				EDA5A3431DCB587700F8C971 /* FBLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA5A3231DCB587700F8C971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA5A3331DCB587700F8C971 /* LaunchScreen.storyboard in Resources */,
+				EDA5A3301DCB587700F8C971 /* Assets.xcassets in Resources */,
+				EDA5A32E1DCB587700F8C971 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA5A3371DCB587700F8C971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA5A3421DCB587700F8C971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA5A3211DCB587700F8C971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA5A32B1DCB587700F8C971 /* ViewController.swift in Sources */,
+				EDA5A3291DCB587700F8C971 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA5A3351DCB587700F8C971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA5A33E1DCB587700F8C971 /* FBLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA5A3401DCB587700F8C971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA5A3491DCB587700F8C971 /* FBLogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDA5A33B1DCB587700F8C971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA5A3241DCB587700F8C971 /* FBLog */;
+			targetProxy = EDA5A33A1DCB587700F8C971 /* PBXContainerItemProxy */;
+		};
+		EDA5A3461DCB587700F8C971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA5A3241DCB587700F8C971 /* FBLog */;
+			targetProxy = EDA5A3451DCB587700F8C971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDA5A32C1DCB587700F8C971 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA5A32D1DCB587700F8C971 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDA5A3311DCB587700F8C971 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA5A3321DCB587700F8C971 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA5A34B1DCB587700F8C971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDA5A34C1DCB587700F8C971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA5A34E1DCB587700F8C971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FBLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.FBLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDA5A34F1DCB587700F8C971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FBLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.FBLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDA5A3511DCB587700F8C971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FBLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.FBLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBLog.app/FBLog";
+			};
+			name = Debug;
+		};
+		EDA5A3521DCB587700F8C971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FBLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.FBLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBLog.app/FBLog";
+			};
+			name = Release;
+		};
+		EDA5A3541DCB587700F8C971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FBLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.FBLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FBLog;
+			};
+			name = Debug;
+		};
+		EDA5A3551DCB587700F8C971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FBLogUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.FBLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FBLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA5A3201DCB587700F8C971 /* Build configuration list for PBXProject "FBLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA5A34B1DCB587700F8C971 /* Debug */,
+				EDA5A34C1DCB587700F8C971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA5A34D1DCB587700F8C971 /* Build configuration list for PBXNativeTarget "FBLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA5A34E1DCB587700F8C971 /* Debug */,
+				EDA5A34F1DCB587700F8C971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDA5A3501DCB587700F8C971 /* Build configuration list for PBXNativeTarget "FBLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA5A3511DCB587700F8C971 /* Debug */,
+				EDA5A3521DCB587700F8C971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDA5A3531DCB587700F8C971 /* Build configuration list for PBXNativeTarget "FBLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA5A3541DCB587700F8C971 /* Debug */,
+				EDA5A3551DCB587700F8C971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA5A31D1DCB587700F8C971 /* Project object */;
+}
