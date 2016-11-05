@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AAEFC000CB92381604F90F4 /* Pods_FBLogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8160BEE6D79CD6AA0E8AD4A0 /* Pods_FBLogTests.framework */; };
+		771CDD2E40B62E15364C0941 /* Pods_FBLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0CC4429680DD8523CF9146 /* Pods_FBLog.framework */; };
+		ED9FB4BD1DCB8596007809DC /* CalendarView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9FB4BC1DCB8596007809DC /* CalendarView.storyboard */; };
+		ED9FB4BF1DCB85F8007809DC /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FB4BE1DCB85F8007809DC /* CalendarViewController.swift */; };
+		ED9FB4C11DCB861E007809DC /* CalculateCalendarLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FB4C01DCB861E007809DC /* CalculateCalendarLogic.swift */; };
+		ED9FB4C31DCB862F007809DC /* DeviseSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FB4C21DCB862F007809DC /* DeviseSize.swift */; };
+		ED9FB4C51DCB86D5007809DC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9FB4C41DCB86D5007809DC /* QuartzCore.framework */; };
+		ED9FB4C71DCB881E007809DC /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FB4C61DCB881E007809DC /* UIExtension.swift */; };
+		ED9FB4C91DCB8848007809DC /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FB4C81DCB8848007809DC /* ColorManager.swift */; };
+		ED9FB4CB1DCB8EBC007809DC /* getSelectDayFBData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FB4CA1DCB8EBC007809DC /* getSelectDayFBData.swift */; };
+		ED9FB4CF1DCB9063007809DC /* DZNEmptyDataSet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9FB4CC1DCB9063007809DC /* DZNEmptyDataSet.framework */; };
+		ED9FB4D01DCB9063007809DC /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9FB4CD1DCB9063007809DC /* SVProgressHUD.framework */; };
+		ED9FB4D11DCB9063007809DC /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9FB4CE1DCB9063007809DC /* SwiftDate.framework */; };
+		ED9FB4D41DCB92D5007809DC /* CalendarFBArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FB4D31DCB92D5007809DC /* CalendarFBArray.swift */; };
+		ED9FB4D61DCC8B3D007809DC /* FBDetileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9FB4D51DCC8B3D007809DC /* FBDetileViewController.swift */; };
 		EDA5A3291DCB587700F8C971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5A3281DCB587700F8C971 /* AppDelegate.swift */; };
 		EDA5A32B1DCB587700F8C971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5A32A1DCB587700F8C971 /* ViewController.swift */; };
 		EDA5A32E1DCB587700F8C971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA5A32C1DCB587700F8C971 /* Main.storyboard */; };
@@ -14,6 +29,7 @@
 		EDA5A3331DCB587700F8C971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA5A3311DCB587700F8C971 /* LaunchScreen.storyboard */; };
 		EDA5A33E1DCB587700F8C971 /* FBLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5A33D1DCB587700F8C971 /* FBLogTests.swift */; };
 		EDA5A3491DCB587700F8C971 /* FBLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA5A3481DCB587700F8C971 /* FBLogUITests.swift */; };
+		F7419D3D239FF877FA8753E9 /* Pods_FBLogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD6B49436D9CDA0DF3E3A0C /* Pods_FBLogUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		072F9D0546473FE8DDA69731 /* Pods-FBLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBLog/Pods-FBLog.debug.xcconfig"; sourceTree = "<group>"; };
+		0EBD2725D0D83E4971ABB422 /* Pods-FBLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLog.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBLog/Pods-FBLog.release.xcconfig"; sourceTree = "<group>"; };
+		7DD6B49436D9CDA0DF3E3A0C /* Pods_FBLogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBLogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8160BEE6D79CD6AA0E8AD4A0 /* Pods_FBLogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBLogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9300E15A4981A55C1B2318 /* Pods-FBLogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBLogTests/Pods-FBLogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B49C89E86BB70AD2774F4D08 /* Pods-FBLogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLogUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBLogUITests/Pods-FBLogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D5525CB02BBAC3C3B6EAF1CB /* Pods-FBLogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBLogUITests/Pods-FBLogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED9FB4BC1DCB8596007809DC /* CalendarView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CalendarView.storyboard; sourceTree = "<group>"; };
+		ED9FB4BE1DCB85F8007809DC /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		ED9FB4C01DCB861E007809DC /* CalculateCalendarLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateCalendarLogic.swift; sourceTree = "<group>"; };
+		ED9FB4C21DCB862F007809DC /* DeviseSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviseSize.swift; sourceTree = "<group>"; };
+		ED9FB4C41DCB86D5007809DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ED9FB4C61DCB881E007809DC /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		ED9FB4C81DCB8848007809DC /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		ED9FB4CA1DCB8EBC007809DC /* getSelectDayFBData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getSelectDayFBData.swift; sourceTree = "<group>"; };
+		ED9FB4CC1DCB9063007809DC /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DZNEmptyDataSet.framework; path = Carthage/Build/iOS/DZNEmptyDataSet.framework; sourceTree = SOURCE_ROOT; };
+		ED9FB4CD1DCB9063007809DC /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = SOURCE_ROOT; };
+		ED9FB4CE1DCB9063007809DC /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = SOURCE_ROOT; };
+		ED9FB4D31DCB92D5007809DC /* CalendarFBArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarFBArray.swift; sourceTree = "<group>"; };
+		ED9FB4D51DCC8B3D007809DC /* FBDetileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBDetileViewController.swift; sourceTree = "<group>"; };
 		EDA5A3251DCB587700F8C971 /* FBLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA5A3281DCB587700F8C971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDA5A32A1DCB587700F8C971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +83,8 @@
 		EDA5A3441DCB587700F8C971 /* FBLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA5A3481DCB587700F8C971 /* FBLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLogUITests.swift; sourceTree = "<group>"; };
 		EDA5A34A1DCB587700F8C971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0599D04DA3A7B32817650EE /* Pods-FBLogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBLogTests/Pods-FBLogTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA0CC4429680DD8523CF9146 /* Pods_FBLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9FB4C51DCB86D5007809DC /* QuartzCore.framework in Frameworks */,
+				ED9FB4D11DCB9063007809DC /* SwiftDate.framework in Frameworks */,
+				771CDD2E40B62E15364C0941 /* Pods_FBLog.framework in Frameworks */,
+				ED9FB4D01DCB9063007809DC /* SVProgressHUD.framework in Frameworks */,
+				ED9FB4CF1DCB9063007809DC /* DZNEmptyDataSet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AAEFC000CB92381604F90F4 /* Pods_FBLogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +112,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7419D3D239FF877FA8753E9 /* Pods_FBLogUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B1338D0DF5840E292AD474B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED9FB4CC1DCB9063007809DC /* DZNEmptyDataSet.framework */,
+				ED9FB4CD1DCB9063007809DC /* SVProgressHUD.framework */,
+				ED9FB4CE1DCB9063007809DC /* SwiftDate.framework */,
+				ED9FB4C41DCB86D5007809DC /* QuartzCore.framework */,
+				FA0CC4429680DD8523CF9146 /* Pods_FBLog.framework */,
+				8160BEE6D79CD6AA0E8AD4A0 /* Pods_FBLogTests.framework */,
+				7DD6B49436D9CDA0DF3E3A0C /* Pods_FBLogUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6CF58397F9A58CAA49D2F46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				072F9D0546473FE8DDA69731 /* Pods-FBLog.debug.xcconfig */,
+				0EBD2725D0D83E4971ABB422 /* Pods-FBLog.release.xcconfig */,
+				9C9300E15A4981A55C1B2318 /* Pods-FBLogTests.debug.xcconfig */,
+				F0599D04DA3A7B32817650EE /* Pods-FBLogTests.release.xcconfig */,
+				D5525CB02BBAC3C3B6EAF1CB /* Pods-FBLogUITests.debug.xcconfig */,
+				B49C89E86BB70AD2774F4D08 /* Pods-FBLogUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EDA5A31C1DCB587700F8C971 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +153,8 @@
 				EDA5A33C1DCB587700F8C971 /* FBLogTests */,
 				EDA5A3471DCB587700F8C971 /* FBLogUITests */,
 				EDA5A3261DCB587700F8C971 /* Products */,
+				B6CF58397F9A58CAA49D2F46 /* Pods */,
+				0B1338D0DF5840E292AD474B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +171,17 @@
 		EDA5A3271DCB587700F8C971 /* FBLog */ = {
 			isa = PBXGroup;
 			children = (
+				ED9FB4CA1DCB8EBC007809DC /* getSelectDayFBData.swift */,
+				ED9FB4D31DCB92D5007809DC /* CalendarFBArray.swift */,
+				ED9FB4C81DCB8848007809DC /* ColorManager.swift */,
+				ED9FB4BE1DCB85F8007809DC /* CalendarViewController.swift */,
+				ED9FB4C01DCB861E007809DC /* CalculateCalendarLogic.swift */,
+				ED9FB4C21DCB862F007809DC /* DeviseSize.swift */,
 				EDA5A3281DCB587700F8C971 /* AppDelegate.swift */,
 				EDA5A32A1DCB587700F8C971 /* ViewController.swift */,
+				ED9FB4BC1DCB8596007809DC /* CalendarView.storyboard */,
+				ED9FB4D51DCC8B3D007809DC /* FBDetileViewController.swift */,
+				ED9FB4C61DCB881E007809DC /* UIExtension.swift */,
 				EDA5A32C1DCB587700F8C971 /* Main.storyboard */,
 				EDA5A32F1DCB587700F8C971 /* Assets.xcassets */,
 				EDA5A3311DCB587700F8C971 /* LaunchScreen.storyboard */,
@@ -132,9 +215,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDA5A34D1DCB587700F8C971 /* Build configuration list for PBXNativeTarget "FBLog" */;
 			buildPhases = (
+				5C8CAD7B167CEC598326EE3E /* [CP] Check Pods Manifest.lock */,
 				EDA5A3211DCB587700F8C971 /* Sources */,
 				EDA5A3221DCB587700F8C971 /* Frameworks */,
 				EDA5A3231DCB587700F8C971 /* Resources */,
+				C954EC51EA4235583A5B0E24 /* [CP] Embed Pods Frameworks */,
+				0FFBB5E7967ABF3FFA1F717C /* [CP] Copy Pods Resources */,
+				ED9FB4D21DCB91A2007809DC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDA5A3501DCB587700F8C971 /* Build configuration list for PBXNativeTarget "FBLogTests" */;
 			buildPhases = (
+				00B74DED6C5E7A3B712D62BC /* [CP] Check Pods Manifest.lock */,
 				EDA5A3351DCB587700F8C971 /* Sources */,
 				EDA5A3361DCB587700F8C971 /* Frameworks */,
 				EDA5A3371DCB587700F8C971 /* Resources */,
+				184A84A4C2FF3888689AF639 /* [CP] Embed Pods Frameworks */,
+				61C669423324C067AF9E60DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDA5A3531DCB587700F8C971 /* Build configuration list for PBXNativeTarget "FBLogUITests" */;
 			buildPhases = (
+				CC18724FD0389E200980B84D /* [CP] Check Pods Manifest.lock */,
 				EDA5A3401DCB587700F8C971 /* Sources */,
 				EDA5A3411DCB587700F8C971 /* Frameworks */,
 				EDA5A3421DCB587700F8C971 /* Resources */,
+				362001AF394E3D51395C1EFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +324,7 @@
 				EDA5A3331DCB587700F8C971 /* LaunchScreen.storyboard in Resources */,
 				EDA5A3301DCB587700F8C971 /* Assets.xcassets in Resources */,
 				EDA5A32E1DCB587700F8C971 /* Main.storyboard in Resources */,
+				ED9FB4BD1DCB8596007809DC /* CalendarView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +344,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00B74DED6C5E7A3B712D62BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0FFBB5E7967ABF3FFA1F717C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBLog/Pods-FBLog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		184A84A4C2FF3888689AF639 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBLogTests/Pods-FBLogTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		362001AF394E3D51395C1EFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBLogUITests/Pods-FBLogUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C8CAD7B167CEC598326EE3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61C669423324C067AF9E60DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBLogTests/Pods-FBLogTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C954EC51EA4235583A5B0E24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBLog/Pods-FBLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC18724FD0389E200980B84D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED9FB4D21DCB91A2007809DC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/DZNEmptyDataSet.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDA5A3211DCB587700F8C971 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9FB4C91DCB8848007809DC /* ColorManager.swift in Sources */,
+				ED9FB4C31DCB862F007809DC /* DeviseSize.swift in Sources */,
+				ED9FB4C71DCB881E007809DC /* UIExtension.swift in Sources */,
+				ED9FB4D61DCC8B3D007809DC /* FBDetileViewController.swift in Sources */,
+				ED9FB4CB1DCB8EBC007809DC /* getSelectDayFBData.swift in Sources */,
+				ED9FB4BF1DCB85F8007809DC /* CalendarViewController.swift in Sources */,
+				ED9FB4C11DCB861E007809DC /* CalculateCalendarLogic.swift in Sources */,
 				EDA5A32B1DCB587700F8C971 /* ViewController.swift in Sources */,
 				EDA5A3291DCB587700F8C971 /* AppDelegate.swift in Sources */,
+				ED9FB4D41DCB92D5007809DC /* CalendarFBArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,8 +637,13 @@
 		};
 		EDA5A34E1DCB587700F8C971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 072F9D0546473FE8DDA69731 /* Pods-FBLog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FBLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.FBLog;
@@ -408,8 +653,13 @@
 		};
 		EDA5A34F1DCB587700F8C971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBD2725D0D83E4971ABB422 /* Pods-FBLog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FBLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.FBLog;
@@ -419,6 +669,7 @@
 		};
 		EDA5A3511DCB587700F8C971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9300E15A4981A55C1B2318 /* Pods-FBLogTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FBLogTests/Info.plist;
@@ -431,6 +682,7 @@
 		};
 		EDA5A3521DCB587700F8C971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0599D04DA3A7B32817650EE /* Pods-FBLogTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FBLogTests/Info.plist;
@@ -443,6 +695,7 @@
 		};
 		EDA5A3541DCB587700F8C971 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5525CB02BBAC3C3B6EAF1CB /* Pods-FBLogUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FBLogUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +707,7 @@
 		};
 		EDA5A3551DCB587700F8C971 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49C89E86BB70AD2774F4D08 /* Pods-FBLogUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FBLogUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +736,7 @@
 				EDA5A34F1DCB587700F8C971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDA5A3501DCB587700F8C971 /* Build configuration list for PBXNativeTarget "FBLogTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +745,7 @@
 				EDA5A3521DCB587700F8C971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDA5A3531DCB587700F8C971 /* Build configuration list for PBXNativeTarget "FBLogUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +754,7 @@
 				EDA5A3551DCB587700F8C971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
+        <!--Calendar-->
+        <scene sceneID="8qS-aO-e68">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CalendarView" referencedIdentifier="Calendar" id="e3a-0T-YX7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EUw-eZ-fYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="415" y="383"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FBLog" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +24,43 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qas-zv-cky">
+                                <rect key="frame" x="212" y="170" width="177" height="30"/>
+                                <state key="normal" title="login Facebook account!!!"/>
+                                <connections>
+                                    <action selector="tapGetFBData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ok2-aO-7Cs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6F-bh-hjD">
+                                <rect key="frame" x="220" y="350" width="160" height="30"/>
+                                <state key="normal" title="get Facebook all data!!!"/>
+                                <connections>
+                                    <action selector="tapSecondButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LT4-JM-hh5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaE-mB-9dY">
+                                <rect key="frame" x="250" y="480" width="101" height="30"/>
+                                <state key="normal" title="go to Calendar"/>
+                                <connections>
+                                    <segue destination="e3a-0T-YX7" kind="presentation" id="cjp-hf-dmz"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qas-zv-cky" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="150" id="0l9-fy-WNf"/>
+                            <constraint firstItem="b6F-bh-hjD" firstAttribute="top" secondItem="qas-zv-cky" secondAttribute="bottom" constant="150" id="C1y-ig-Ive"/>
+                            <constraint firstItem="qas-zv-cky" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ESl-2e-qnF"/>
+                            <constraint firstItem="b6F-bh-hjD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IVo-a2-Dre"/>
+                            <constraint firstItem="gaE-mB-9dY" firstAttribute="top" secondItem="b6F-bh-hjD" secondAttribute="bottom" constant="100" id="b4w-j5-f4R"/>
+                            <constraint firstItem="gaE-mB-9dY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="phC-8L-9Tj"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="36" y="181"/>
         </scene>
     </scenes>
 </document>
